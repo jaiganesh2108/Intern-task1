@@ -25,7 +25,7 @@ This is a simple command-line calculator built using Python. It allows users to 
 ```bash
 python calculator.py
 
-Welcome to CLI Calculator!
+Welcome to the CLI Calculator!
 Operations: + for addition, - for subtraction, * for multiplication, / for division
 
 Enter the first number: 10
