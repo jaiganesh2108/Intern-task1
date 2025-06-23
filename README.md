@@ -20,3 +20,34 @@ This is a simple command-line calculator built using Python. It allows users to 
 - Terminal or Command Prompt  
 
 - Inputs are automatically handled to remove extra spaces and support lowercase text.
+
+## Example:
+```bash
+python calculator.py
+
+Welcome to CLI Calculator!
+Operations: + for addition, - for subtraction, * for multiplication, / for division
+
+Enter the first number: 10
+Enter the operator (+, -, *, /): *
+Enter the second number: 5
+Result: 50.0
+
+Do you want to perform another calculation? (yes/no): yes
+Continuing.....
+
+Enter the first number: 20
+Enter the operator (+, -, *, /): /
+Enter the second number: 0
+Result: Error: Division by zero
+
+Do you want to perform another calculation? (yes/no): y
+Continuing.....
+
+Enter the first number: 15
+Enter the operator (+, -, *, /): -
+Enter the second number: 8
+Result: 7.0
+
+Do you want to perform another calculation? (yes/no): no
+Thank you for using the calculator!
